@@ -1,4 +1,4 @@
-const { GREETING } = process.env;
+const { GREETING } = process.env.GREETING;
 
 exports.handler = async (event, context) => {
   return {
